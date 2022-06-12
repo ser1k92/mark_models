@@ -1,5 +1,5 @@
 <p>
-После pull проекта, в термина запустить команду cp .env.example .env и php artisan key:generate <br>
+После pull проекта, в термина запустить команду compser install, cp .env.example .env и php artisan key:generate <br>
 После в файле .env настраиыаем подлючение к DB <br>
 Далее php artisan storage:link <br>
 И последнее php artisan migrate && php artisan db:seed
