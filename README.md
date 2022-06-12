@@ -1,3 +1,11 @@
+<p>
+После pull проекта, в термина запустить команду cp .env.example .env и php artisan key:generate <br>
+После в файле .env настраиыаем подлючение к DB <br>
+Далее php artisan storage:link <br>
+И последнее php artisan migrate && php artisan db:seed
+</p>
+<p>Проверяем базу</p>
+<p>Чтобы посмотреть данные с файла в терминале пишем команде php artisan serve, переходим по ссылке http://127.0.0.1:8000/file и видим json с данными</p>
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
