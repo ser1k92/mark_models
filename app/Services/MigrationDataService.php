@@ -29,10 +29,8 @@ class MigrationDataService
                 $value = '"';
                 $status = true; // прошли конечную точку
             }
-
-            if ($value == '\\') {
-                $value = "";
-            }
+            
+            $value = stripslashes($value);
 
             array_push($result, $value);
         }
