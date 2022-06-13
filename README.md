@@ -1,8 +1,8 @@
 <p>
-После pull проекта, в термина запустить команду compser install, cp .env.example .env и php artisan key:generate <br>
-После в файле .env настраиыаем подлючение к DB <br>
-Далее php artisan storage:link <br>
-И последнее php artisan migrate && php artisan db:seed
+После pull проекта, в термина запустить команду <span>compser install</span>, <span>cp .env.example .env</span> и <span>php artisan key:generate</span> <br>
+После в файле <span>.env</span> настраиваем подлючение к DB <br>
+Далее <span>php artisan storage:link</span> и поместить в <span>public/storage</span> файл <span>mark_models.txt</span><br>
+И последнее <span>php artisan migrate && php artisan db:seed</span>
 </p>
 <p>Проверяем базу</p>
 <p>Чтобы посмотреть данные с файла в терминале пишем команде php artisan serve, переходим по ссылке http://127.0.0.1:8000/file и видим json с данными</p>
