@@ -1,11 +1,11 @@
 <p>
 После pull проекта, в термина запустить команду <span>compser install</span>, <span>cp .env.example .env</span> и <span>php artisan key:generate</span> <br>
-После в файле <span>.env</span> настраиваем подлючение к DB <br>
+После в файле <span>.env</span> настраиваем подключение к DB <br>
 Далее <span>php artisan storage:link</span> и поместить в <span>public/storage</span> файл <span>mark_models.txt</span><br>
 И последнее <span>php artisan migrate && php artisan db:seed</span>
 </p>
 <p>Проверяем базу</p>
-<p>Чтобы посмотреть данные с файла в терминале пишем команде php artisan serve, переходим по ссылке http://127.0.0.1:8000/file и видим json с данными</p>
+<p>Чтобы посмотреть данные с файла в терминале пишем команде php artisan serve, переходим по ссылке http://127.0.0.1:8000/file и видим массив данных</p>
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
